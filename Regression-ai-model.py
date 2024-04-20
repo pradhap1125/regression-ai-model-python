@@ -171,7 +171,7 @@ def delete_old_models():
         pass
 
 if __name__ == '__main__':
-    option=input('please enter 1 to start fresh,2 to use an trained model,3 to exit \n')
+    option=input('please enter 1 to start fresh,2 to use an trained model \n')
     option=int(option)
     match option:
       case 1:
